@@ -12,7 +12,7 @@ bar = st.progress(0)
 for i in range(100):
     latest_iteration.text(f'Iteration {i+1}')
     bar.progress(i + 1)
-    time.sleep(0.1)                                                     #sleep(0.1)は0.1秒ごとにfor分を回す
+    time.sleep(0.1)                                                     #sleep(0.1)は0.1秒ごとにfor分を回す。
 
 'Done!!!!!'
 
